@@ -1,0 +1,294 @@
+{
+   "tracks" : [
+      {
+         "storeClass" : "JBrowse/Store/Sequence/StaticChunked",
+         "chunkSize" : 20000,
+         "urlTemplate" : "seq/{refseq_dirpath}/{refseq}-",
+         "label" : "DNA",
+         "type" : "SequenceTrack",
+         "category" : " Reference sequence",
+         "key" : "Reference sequence"
+      },
+      {
+         "style" : {
+            "className" : "feature"
+         },
+         "key" : "RsGM3",
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "trackType" : "CanvasFeatures",
+         "urlTemplate" : "tracks/RsGM3/{refseq}/trackData.json",
+         "compress" : 0,
+         "type" : "CanvasFeatures",
+         "label" : "RsGM3",
+         "category" : "Older versions"
+      },
+      {
+         "style" : {
+            "className" : "feature"
+         },
+         "key" : "RsGM5d",
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "trackType" : "CanvasFeatures",
+         "urlTemplate" : "tracks/RsGM5/{refseq}/trackData.json",
+         "compress" : 0,
+         "type" : "CanvasFeatures",
+         "label" : "RsGM5d",
+         "category" : "Older versions"
+      },
+      {
+         "style" : {
+            "className" : "generic_parent",
+            "subfeatureClasses" : {
+               "match_part" : "exon"
+            }
+         },
+         "key" : "Trinity_Dai",
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "trackType" : "HTMLFeatures",
+         "urlTemplate" : "tracks/Trinity_Dai/{refseq}/trackData.json",
+         "compress" : 0,
+         "category" : "Transcripts",
+         "type" : "HTMLFeatures",
+         "label" : "Trinity_Dai"
+      },
+      {
+         "style" : {
+            "className" : "generic_parent",
+            "subfeatureClasses" : {
+               "match_part" : "exon"
+            }
+         },
+         "key" : "Trinity_Hayashi",
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "trackType" : "HTMLFeatures",
+         "urlTemplate" : "tracks/Trinity_Hayashi/{refseq}/trackData.json",
+         "compress" : 0,
+         "category" : "Transcripts",
+         "type" : "HTMLFeatures",
+         "label" : "Trinity_Hayashi"
+      },
+      {
+         "style" : {
+            "className" : "generic_parent",
+            "subfeatureClasses" : {
+               "match_part" : "exon"
+            }
+         },
+         "key" : "Drosophila melanogaster proteins",
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "trackType" : "HTMLFeatures",
+         "urlTemplate" : "tracks/DMELA_protein/{refseq}/trackData.json",
+         "compress" : 0,
+         "category" : "Proteins - other species",
+         "type" : "HTMLFeatures",
+         "label" : "DMELA_protein"
+      },
+      {
+         "style" : {
+            "className" : "generic_parent",
+            "subfeatureClasses" : {
+               "match_part" : "exon"
+            }
+         },
+         "key" : "Acyrthosiphon pisum proteins",
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "trackType" : "HTMLFeatures",
+         "urlTemplate" : "tracks/APISU_protein/{refseq}/trackData.json",
+         "compress" : 0,
+         "category" : "Proteins - other species",
+         "type" : "HTMLFeatures",
+         "label" : "APISU_protein"
+      },
+      {
+         "style" : {
+            "className" : "generic_parent",
+            "subfeatureClasses" : {
+               "match_part" : "exon"
+            }
+         },
+         "key" : "Tribolium castaneum proteins",
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "trackType" : "HTMLFeatures",
+         "urlTemplate" : "tracks/TCAST_protein/{refseq}/trackData.json",
+         "compress" : 0,
+         "category" : "Proteins - other species",
+         "type" : "HTMLFeatures",
+         "label" : "TCAST_protein"
+      },
+      {
+         "style" : {
+            "className" : "generic_parent",
+            "subfeatureClasses" : {
+               "match_part" : "exon"
+            }
+         },
+         "key" : "Apis mellifera proteins",
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "trackType" : "HTMLFeatures",
+         "urlTemplate" : "tracks/AMELA_protein/{refseq}/trackData.json",
+         "compress" : 0,
+         "category" : "Proteins - other species",
+         "type" : "HTMLFeatures",
+         "label" : "AMELA_protein"
+      },
+      {
+         "style" : {
+            "className" : "generic_parent",
+            "subfeatureClasses" : {
+               "match_part" : "exon"
+            }
+         },
+         "key" : "Daphnia pulex proteins",
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "trackType" : "HTMLFeatures",
+         "urlTemplate" : "tracks/DPULE_protein/{refseq}/trackData.json",
+         "compress" : 0,
+         "category" : "Proteins - other species",
+         "type" : "HTMLFeatures",
+         "label" : "DPULE_protein"
+      },
+      {
+         "style" : {
+            "className" : "generic_parent",
+            "subfeatureClasses" : {
+               "match_part" : "exon"
+            }
+         },
+         "key" : "Trinity CDS of Nasutitermes takasagoensis - Hojo",
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "trackType" : "HTMLFeatures",
+         "urlTemplate" : "tracks/TrinityCDS_Ntak121218/{refseq}/trackData.json",
+         "compress" : 0,
+         "category" : "Proteins - termites",
+         "type" : "HTMLFeatures",
+         "label" : "TrinityCDS_Ntak121218"
+      },
+      {
+         "style" : {
+            "className" : "generic_parent",
+            "subfeatureClasses" : {
+               "match_part" : "exon"
+            }
+         },
+         "key" : "Trinity CDS of Periplaneta americana - Hayashi",
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "trackType" : "HTMLFeatures",
+         "urlTemplate" : "tracks/TrinityCDS_PerAme/{refseq}/trackData.json",
+         "compress" : 0,
+         "category" : "Proteins - termites",
+         "type" : "HTMLFeatures",
+         "label" : "TrinityCDS_PerAme"
+      },
+      {
+         "style" : {
+            "className" : "generic_parent",
+            "subfeatureClasses" : {
+               "match_part" : "exon"
+            }
+         },
+         "key" : "Trinity CDS of Coptotermes formosanus - Hojo",
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "trackType" : "HTMLFeatures",
+         "urlTemplate" : "tracks/TrinityCDS_Cfor/{refseq}/trackData.json",
+         "compress" : 0,
+         "category" : "Proteins - termites",
+         "type" : "HTMLFeatures",
+         "label" : "TrinityCDS_Cfor"
+      },
+      {
+         "style" : {
+            "className" : "generic_parent",
+            "subfeatureClasses" : {
+               "match_part" : "exon"
+            }
+         },
+         "key" : "Trinity CDS of Zootermopsis nevadensis - Yaguchi",
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "trackType" : "HTMLFeatures",
+         "urlTemplate" : "tracks/TrinityCDS_Znev/{refseq}/trackData.json",
+         "compress" : 0,
+         "type" : "HTMLFeatures",
+         "label" : "TrinityCDS_Znev",
+         "category" : "Proteins - termites"
+      },
+      {
+         "style" : {
+            "className" : "generic_parent",
+            "subfeatureClasses" : {
+               "match_part" : "exon"
+            }
+         },
+         "key" : "TrinityCDS_Dai",
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "trackType" : "HTMLFeatures",
+         "urlTemplate" : "tracks/TrinityCDS_Dai/{refseq}/trackData.json",
+         "compress" : 0,
+         "category" : "Transcripts",
+         "type" : "HTMLFeatures",
+         "label" : "TrinityCDS_Dai"
+      },
+      {
+         "style" : {
+            "className" : "generic_parent",
+            "subfeatureClasses" : {
+               "match_part" : "exon"
+            }
+         },
+         "key" : "TrinityCDS_Hayashi",
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "trackType" : "HTMLFeatures",
+         "urlTemplate" : "tracks/TrinityCDS_Hayashi/{refseq}/trackData.json",
+         "compress" : 0,
+         "category" : "Transcripts",
+         "type" : "HTMLFeatures",
+         "label" : "TrinityCDS_Hayashi"
+      },
+      {
+         "style" : {
+            "className" : "feature"
+         },
+         "key" : "RsGM6",
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "trackType" : "CanvasFeatures",
+         "urlTemplate" : "tracks/RsGM6/{refseq}/trackData.json",
+         "compress" : 0,
+         "label" : "RsGM6",
+         "category" : " Reference sequence",
+         "type" : "CanvasFeatures"
+      },
+      {
+         "style" : {
+            "className" : "generic_parent",
+            "subfeatureClasses" : {
+               "match_part" : "exon"
+            }
+         },
+         "key" : "Znev OGSv2.2",
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "trackType" : "HTMLFeatures",
+         "urlTemplate" : "tracks/ZnevOGS2.2.p2g/{refseq}/trackData.json",
+         "compress" : 0,
+         "label" : "ZnevOGS2.2.p2g",
+         "category" : "Proteins - termites",
+         "type" : "HTMLFeatures"
+      },
+      {
+         "style" : {
+            "className" : "feature"
+         },
+         "key" : "RsGM8",
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "trackType" : "CanvasFeatures",
+         "urlTemplate" : "tracks/RsGM8/{refseq}/trackData.json",
+         "compress" : 0,
+         "type" : "CanvasFeatures",
+         "label" : "RsGM8",
+	 "category" : "Z Preliminary"
+      }
+   ],
+   "names" : {
+      "url" : "names/",
+      "type" : "Hash"
+   },
+   "formatVersion" : 1
+}
