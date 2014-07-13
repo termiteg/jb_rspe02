@@ -81,7 +81,22 @@
          "compress" : 0,
          "category" : "Proteins - other species",
          "type" : "HTMLFeatures",
-         "label" : "DMELA_protein"
+         "label" : "DMELA_protein",
+	 "menuTemplate" : [
+	   {
+	    "label" : "view details",
+	   },
+	   {
+	    "label" : "Highlight this gene",
+	   },
+	   {
+	    "label" : "FlyBase",
+	    "title" : "FlyBase: {ID}",
+	    "iconClass" : "dijitIconDatabase",
+	    "action" : "newWindow",
+	    "url" : "http://flybase.org/reports/{ID}.html"
+	   }
+	 ]
       },
       {
          "style" : {
