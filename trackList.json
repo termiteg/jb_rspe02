@@ -285,7 +285,22 @@
          "compress" : 0,
          "label" : "ZnevOGS2.2.p2g",
          "category" : "Proteins - termites",
-         "type" : "HTMLFeatures"
+         "type" : "HTMLFeatures",
+         "menuTemplate" : [
+           {
+            "label" : "view details",
+           },
+           {
+            "label" : "Highlight this gene",
+           },
+           {
+            "label" : "ZnevOGS OkazakiDB",
+            "title" : "ZnevOGS: {ID}",
+            "iconClass" : "dijitIconDatabase",
+            "action" : "newWindow",
+            "url" : "http://catm.nibb.ac.jp:3007/orf_models?q={ID}"
+           }
+         ]
       },
       {
          "style" : {
