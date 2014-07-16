@@ -20,7 +20,7 @@
          "compress" : 0,
          "type" : "CanvasFeatures",
          "label" : "RsGM3",
-         "category" : "Older versions"
+         "category" : "Z Older versions"
       },
       {
          "style" : {
@@ -33,7 +33,7 @@
          "compress" : 0,
          "type" : "CanvasFeatures",
          "label" : "RsGM5d",
-         "category" : "Older versions"
+         "category" : "Z Older versions"
       },
       {
          "style" : {
@@ -268,7 +268,7 @@
          "urlTemplate" : "tracks/RsGM6/{refseq}/trackData.json",
          "compress" : 0,
          "label" : "RsGM6",
-         "category" : " Reference sequence",
+         "category" : "Z Older versions",
          "type" : "CanvasFeatures"
       },
       {
@@ -313,7 +313,7 @@
          "compress" : 0,
          "type" : "CanvasFeatures",
          "label" : "RsGM8",
-	 "category" : "Z Preliminary"
+	 "category" : " Reference sequence"
       }
    ],
    "names" : {
