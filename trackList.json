@@ -313,7 +313,17 @@
          "compress" : 0,
          "type" : "CanvasFeatures",
          "label" : "RsGM8",
-	 "category" : " Reference sequence"
+	 "category" : " Reference sequence",
+         "menuTemplate" : [
+           {
+            "label" : "Local DB",
+            "title" : "Local DB: {ID}",
+            "iconClass" : "dijitIconDatabase",
+            "action" : "newWindow",
+            "url" : "http://catm.nibb.ac.jp:3008/orf_models?q={ID}"
+           }
+         ]
+
       }
    ],
    "names" : {
