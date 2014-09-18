@@ -18,9 +18,9 @@
          "trackType" : "CanvasFeatures",
          "urlTemplate" : "tracks/RsGM3/{refseq}/trackData.json",
          "compress" : 0,
+         "category" : "Z Older versions",
          "type" : "CanvasFeatures",
-         "label" : "RsGM3",
-         "category" : "Z Older versions"
+         "label" : "RsGM3"
       },
       {
          "style" : {
@@ -31,9 +31,9 @@
          "trackType" : "CanvasFeatures",
          "urlTemplate" : "tracks/RsGM5/{refseq}/trackData.json",
          "compress" : 0,
+         "category" : "Z Older versions",
          "type" : "CanvasFeatures",
-         "label" : "RsGM5d",
-         "category" : "Z Older versions"
+         "label" : "RsGM5d"
       },
       {
          "style" : {
@@ -47,9 +47,9 @@
          "trackType" : "HTMLFeatures",
          "urlTemplate" : "tracks/Trinity_Dai/{refseq}/trackData.json",
          "compress" : 0,
+         "label" : "Trinity_Dai",
          "category" : "Transcripts",
-         "type" : "HTMLFeatures",
-         "label" : "Trinity_Dai"
+         "type" : "HTMLFeatures"
       },
       {
          "style" : {
@@ -63,9 +63,9 @@
          "trackType" : "HTMLFeatures",
          "urlTemplate" : "tracks/Trinity_Hayashi/{refseq}/trackData.json",
          "compress" : 0,
+         "label" : "Trinity_Hayashi",
          "category" : "Transcripts",
-         "type" : "HTMLFeatures",
-         "label" : "Trinity_Hayashi"
+         "type" : "HTMLFeatures"
       },
       {
          "style" : {
@@ -74,29 +74,29 @@
                "match_part" : "exon"
             }
          },
+         "menuTemplate" : [
+            {
+               "label" : "view details"
+            },
+            {
+               "label" : "Highlight this gene"
+            },
+            {
+               "iconClass" : "dijitIconDatabase",
+               "action" : "newWindow",
+               "url" : "http://flybase.org/reports/{ID}.html",
+               "label" : "FlyBase",
+               "title" : "FlyBase: {ID}"
+            }
+         ],
          "key" : "Drosophila melanogaster proteins",
          "storeClass" : "JBrowse/Store/SeqFeature/NCList",
          "trackType" : "HTMLFeatures",
          "urlTemplate" : "tracks/DMELA_protein/{refseq}/trackData.json",
          "compress" : 0,
-         "category" : "Proteins - other species",
-         "type" : "HTMLFeatures",
          "label" : "DMELA_protein",
-	 "menuTemplate" : [
-	   {
-	    "label" : "view details",
-	   },
-	   {
-	    "label" : "Highlight this gene",
-	   },
-	   {
-	    "label" : "FlyBase",
-	    "title" : "FlyBase: {ID}",
-	    "iconClass" : "dijitIconDatabase",
-	    "action" : "newWindow",
-	    "url" : "http://flybase.org/reports/{ID}.html"
-	   }
-	 ]
+         "category" : "Proteins - other species",
+         "type" : "HTMLFeatures"
       },
       {
          "style" : {
@@ -110,9 +110,9 @@
          "trackType" : "HTMLFeatures",
          "urlTemplate" : "tracks/APISU_protein/{refseq}/trackData.json",
          "compress" : 0,
+         "label" : "APISU_protein",
          "category" : "Proteins - other species",
-         "type" : "HTMLFeatures",
-         "label" : "APISU_protein"
+         "type" : "HTMLFeatures"
       },
       {
          "style" : {
@@ -126,9 +126,9 @@
          "trackType" : "HTMLFeatures",
          "urlTemplate" : "tracks/TCAST_protein/{refseq}/trackData.json",
          "compress" : 0,
+         "label" : "TCAST_protein",
          "category" : "Proteins - other species",
-         "type" : "HTMLFeatures",
-         "label" : "TCAST_protein"
+         "type" : "HTMLFeatures"
       },
       {
          "style" : {
@@ -142,9 +142,9 @@
          "trackType" : "HTMLFeatures",
          "urlTemplate" : "tracks/AMELA_protein/{refseq}/trackData.json",
          "compress" : 0,
+         "label" : "AMELA_protein",
          "category" : "Proteins - other species",
-         "type" : "HTMLFeatures",
-         "label" : "AMELA_protein"
+         "type" : "HTMLFeatures"
       },
       {
          "style" : {
@@ -158,9 +158,9 @@
          "trackType" : "HTMLFeatures",
          "urlTemplate" : "tracks/DPULE_protein/{refseq}/trackData.json",
          "compress" : 0,
+         "label" : "DPULE_protein",
          "category" : "Proteins - other species",
-         "type" : "HTMLFeatures",
-         "label" : "DPULE_protein"
+         "type" : "HTMLFeatures"
       },
       {
          "style" : {
@@ -174,9 +174,9 @@
          "trackType" : "HTMLFeatures",
          "urlTemplate" : "tracks/TrinityCDS_Ntak121218/{refseq}/trackData.json",
          "compress" : 0,
+         "label" : "TrinityCDS_Ntak121218",
          "category" : "Proteins - termites",
-         "type" : "HTMLFeatures",
-         "label" : "TrinityCDS_Ntak121218"
+         "type" : "HTMLFeatures"
       },
       {
          "style" : {
@@ -190,9 +190,9 @@
          "trackType" : "HTMLFeatures",
          "urlTemplate" : "tracks/TrinityCDS_PerAme/{refseq}/trackData.json",
          "compress" : 0,
+         "label" : "TrinityCDS_PerAme",
          "category" : "Proteins - termites",
-         "type" : "HTMLFeatures",
-         "label" : "TrinityCDS_PerAme"
+         "type" : "HTMLFeatures"
       },
       {
          "style" : {
@@ -206,9 +206,9 @@
          "trackType" : "HTMLFeatures",
          "urlTemplate" : "tracks/TrinityCDS_Cfor/{refseq}/trackData.json",
          "compress" : 0,
+         "label" : "TrinityCDS_Cfor",
          "category" : "Proteins - termites",
-         "type" : "HTMLFeatures",
-         "label" : "TrinityCDS_Cfor"
+         "type" : "HTMLFeatures"
       },
       {
          "style" : {
@@ -222,9 +222,9 @@
          "trackType" : "HTMLFeatures",
          "urlTemplate" : "tracks/TrinityCDS_Znev/{refseq}/trackData.json",
          "compress" : 0,
+         "category" : "Proteins - termites",
          "type" : "HTMLFeatures",
-         "label" : "TrinityCDS_Znev",
-         "category" : "Proteins - termites"
+         "label" : "TrinityCDS_Znev"
       },
       {
          "style" : {
@@ -238,9 +238,9 @@
          "trackType" : "HTMLFeatures",
          "urlTemplate" : "tracks/TrinityCDS_Dai/{refseq}/trackData.json",
          "compress" : 0,
+         "label" : "TrinityCDS_Dai",
          "category" : "Transcripts",
-         "type" : "HTMLFeatures",
-         "label" : "TrinityCDS_Dai"
+         "type" : "HTMLFeatures"
       },
       {
          "style" : {
@@ -254,9 +254,9 @@
          "trackType" : "HTMLFeatures",
          "urlTemplate" : "tracks/TrinityCDS_Hayashi/{refseq}/trackData.json",
          "compress" : 0,
+         "label" : "TrinityCDS_Hayashi",
          "category" : "Transcripts",
-         "type" : "HTMLFeatures",
-         "label" : "TrinityCDS_Hayashi"
+         "type" : "HTMLFeatures"
       },
       {
          "style" : {
@@ -267,8 +267,92 @@
          "trackType" : "CanvasFeatures",
          "urlTemplate" : "tracks/RsGM6/{refseq}/trackData.json",
          "compress" : 0,
+         "type" : "CanvasFeatures",
          "label" : "RsGM6",
-         "category" : "Z Older versions",
+         "category" : "Z Older versions"
+      },
+      {
+         "style" : {
+            "className" : "generic_parent",
+            "subfeatureClasses" : {
+               "match_part" : "exon"
+            }
+         },
+         "menuTemplate" : [
+            {
+               "label" : "view details"
+            },
+            {
+               "label" : "Highlight this gene"
+            },
+            {
+               "iconClass" : "dijitIconDatabase",
+               "action" : "newWindow",
+               "url" : "http://catm.nibb.ac.jp:3007/orf_models?q={ID}",
+               "label" : "ZnevOGS OkazakiDB",
+               "title" : "ZnevOGS: {ID}"
+            }
+         ],
+         "key" : "Znev OGSv2.2",
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "trackType" : "HTMLFeatures",
+         "urlTemplate" : "tracks/ZnevOGS2.2.p2g/{refseq}/trackData.json",
+         "compress" : 0,
+         "type" : "HTMLFeatures",
+         "label" : "ZnevOGS2.2.p2g",
+         "category" : "Proteins - termites"
+      },
+      {
+         "style" : {
+            "className" : "feature"
+         },
+         "menuTemplate" : [
+            {
+               "iconClass" : "dijitIconDatabase",
+               "action" : "newWindow",
+               "url" : "http://catm.nibb.ac.jp:3008/orf_models?q={ID}",
+               "label" : "YamatoG DB",
+               "title" : "Okazaki RsGM8 DB: {ID}"
+            }
+         ],
+         "key" : "RsGM8",
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "trackType" : "CanvasFeatures",
+         "urlTemplate" : "tracks/RsGM8/{refseq}/trackData.json",
+         "compress" : 0,
+         "category" : " Reference sequence",
+         "type" : "CanvasFeatures",
+         "label" : "RsGM8"
+      },
+      {
+         "style" : {
+            "className" : "generic_parent",
+            "subfeatureClasses" : {
+               "match_part" : "exon"
+            }
+         },
+         "key" : "Hojo TermiteGGPPS.p2g",
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "trackType" : "HTMLFeatures",
+         "urlTemplate" : "tracks/TermiteGGPPS.p2g/{refseq}/trackData.json",
+         "compress" : 0,
+         "type" : "HTMLFeatures",
+         "category" : "X Special",
+         "label" : "TermiteGGPPS.p2g"
+      },
+      {
+         "style" : {
+            "className" : "feature",
+            "showLabels" : false
+         },
+         "key" : "Cufflinks CDS",
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "trackType" : "CanvasFeatures",
+         "maxHeight" : 1000,
+         "urlTemplate" : "tracks/Cufflinks.CDS/{refseq}/trackData.json",
+         "compress" : 0,
+         "category" : "Transcripts",
+         "label" : "Cufflinks.CDS",
          "type" : "CanvasFeatures"
       },
       {
@@ -278,52 +362,30 @@
                "match_part" : "exon"
             }
          },
-         "key" : "Znev OGSv2.2",
+         "key" : "TrinityCDS_Hojo",
          "storeClass" : "JBrowse/Store/SeqFeature/NCList",
          "trackType" : "HTMLFeatures",
-         "urlTemplate" : "tracks/ZnevOGS2.2.p2g/{refseq}/trackData.json",
+         "urlTemplate" : "tracks/TrinityCDS_Hojo/{refseq}/trackData.json",
          "compress" : 0,
-         "label" : "ZnevOGS2.2.p2g",
-         "category" : "Proteins - termites",
+         "label" : "TrinityCDS_Hojo",
          "type" : "HTMLFeatures",
-         "menuTemplate" : [
-           {
-            "label" : "view details",
-           },
-           {
-            "label" : "Highlight this gene",
-           },
-           {
-            "label" : "ZnevOGS OkazakiDB",
-            "title" : "ZnevOGS: {ID}",
-            "iconClass" : "dijitIconDatabase",
-            "action" : "newWindow",
-            "url" : "http://catm.nibb.ac.jp:3007/orf_models?q={ID}"
-           }
-         ]
+         "category" : "Transcripts"
       },
       {
          "style" : {
-            "className" : "feature"
+            "className" : "generic_parent",
+            "subfeatureClasses" : {
+               "match_part" : "exon"
+            }
          },
-         "key" : "RsGM8",
+         "key" : "ToolKit InsectHox",
          "storeClass" : "JBrowse/Store/SeqFeature/NCList",
-         "trackType" : "CanvasFeatures",
-         "urlTemplate" : "tracks/RsGM8/{refseq}/trackData.json",
+         "trackType" : "HTMLFeatures",
+         "urlTemplate" : "tracks/InsectHox/{refseq}/trackData.json",
          "compress" : 0,
-         "type" : "CanvasFeatures",
-         "label" : "RsGM8",
-	 "category" : " Reference sequence",
-         "menuTemplate" : [
-           {
-            "label" : "Local DB",
-            "title" : "Local DB: {ID}",
-            "iconClass" : "dijitIconDatabase",
-            "action" : "newWindow",
-            "url" : "http://catm.nibb.ac.jp:3008/orf_models?q={ID}"
-           }
-         ]
-
+         "type" : "HTMLFeatures",
+	 "category" : "X Special",
+         "label" : "InsectHox"
       }
    ],
    "names" : {
